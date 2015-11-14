@@ -22,7 +22,6 @@ public class DaftarTransaksi
     }
     
     public BigInteger saldoAkhir(){
-        //saldoAkhir = daftar[0].add(daftar[1]).subtract(daftar[2]);
         return saldoAkhir;
     }
     
@@ -31,19 +30,9 @@ public class DaftarTransaksi
     }
     
     public void tampilkan(){
-      /*  System.out.println(daftar.size());
-        
-        for (saldo=0; saldo < daftar.size(); ++saldo)
-        System.out.println(daftar.get(saldo).toString());
-        System.out.println();
-    */
     }
     
     private ArrayList<Transaksi> daftar;
     private BigInteger saldoAkhir;
     
-    /*public static void main(String[] args) {
-        DaftarTransaksi contoh = new DaftarTransaksi();
-        contoh.tampilkan();
-    }*/
 }
