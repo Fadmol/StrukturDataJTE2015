@@ -36,7 +36,7 @@ public class Tumpukan
           if (atas ==null){
         return null;
         }else{
-        BigInteger ambil = atas.data;
+        BigInteger ambil = bawah.data;
         Node sekarang = bawah;
         while (sekarang.berikut != null){
             sekarang = sekarang.berikut;
